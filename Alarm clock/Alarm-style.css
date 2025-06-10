@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6F8FAF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border: 2px solid ;
+    background-color: #B6D0E2;
+    border-radius: 20px;
+    margin-top: 100px;
+    width: 400px;
+}
+
+#curTime {
+    font-size: 50px;
+    /* padding: 10px; */
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+#curDate {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+h1, p {
+    text-align: center;
+    color: #333;
+}
+
+#set-time {
+    margin: 0px 0px 0px 150px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#alert-msg {
+    text-align: center;
+    color: #f44336;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#set-alarm {
+    margin: 10px 0px 0px 140px;
+    padding: 10px 20px;
+    width: 130px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    /* margin-left: 120px; */
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#set-alarm:hover {
+    background-color: #4CBB17;
+}
+
+#stop-alarm {
+    margin: 10px 0px 0px 140px;
+    padding: 10px 20px;
+    width: 130px;
+    display: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #f44336;
+    /* margin-left: 120px; */
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#snooze-alarm {
+    margin: 10px 0px 0px 140px;
+    padding: 10px 20px;
+    width: 130px;
+    display: none;
+    border: none;
+    border-radius: 8px;
+    background-color: #0096FF;
+    /* margin-left: 120px; */
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.snooze-time {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#alarm-sound-select {
+    margin: 10px 0px 0px 90px;
+    padding: 10px 30px;
+    width: 215px;
+    border: none;
+    border-radius: 8px;
+    background-color: #191970;
+    /* margin-left: 120px; */
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#snooze-msg {
+    text-align: center;
+    color: #FF7F50;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#alarm-notif {
+    text-align: center;
+    color: #191970;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#alarm-time {
+    text-align: center;
+    color: #0000FF;
+    margin-top: 5px;
+    font-size: 20px;   
+}

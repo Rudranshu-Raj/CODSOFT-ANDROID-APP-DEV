@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="TODO-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="stats-container">
+            <div class="details">
+                <h1>To-Do List Manager</h1>
+                <p>Keep it up...</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="stats-number">
+                <p id="numbers">0</p>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" id='taskInput' placeholder="Write your task">
+            <button id="newTask" type="submit">+</button>
+        </form>
+
+        <ul id="task-list"></ul>
+    </div>
+    <script src="TODO-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
+
+
+<!-- <div class="taskItem">
+    <div class="task">
+        <input type="checkbox" class="checkbox" name="" id="">
+        <p>Finish this project</p>
+    </div>
+    <div class="icons">
+        <img src="edit.png" alt="Edit task">
+        <img src="bin.png" alt="Delete task">
+    </div>
+</div> -->
